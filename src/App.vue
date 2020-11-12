@@ -1,7 +1,7 @@
 <template>
   <div>
     Home
-    <Organization />
+    <organization-example />
   </div>
 </template>
 
@@ -11,7 +11,7 @@ import { Organization } from "@/views";
 export default {
   name: "App",
   components: {
-    Organization,
+    'organization-example':Organization,
   },
 };
 </script>
