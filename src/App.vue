@@ -1,19 +1,3 @@
 <template>
-  <div>
-    Home
-    <organization-example />
-  </div>
+  <router-view></router-view>
 </template>
-
-<script>
-import { Organization } from "@/views";
-
-export default {
-  name: "App",
-  components: {
-    'organization-example':Organization,
-  },
-};
-</script>
-
-<style></style>
